@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="body" prefHeight="740.0" prefWidth="1200.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="60.0">
+               <children>
+                  <StackPane HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="30.0" left="30.0" top="30.0" />
+                     </HBox.margin>
+                     <children>
+                        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.3" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: white;" />
+                        <VBox fillWidth="false" prefHeight="200.0" prefWidth="100.0" spacing="30.0">
+                           <children>
+                              <VBox prefHeight="78.0" prefWidth="650.0">
+                                 <children>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="STUDENT" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Arial" size="32.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="INFORMATION" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Arial" size="35.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox fillWidth="false" maxWidth="-Infinity" prefHeight="219.0" prefWidth="420.0" spacing="20.0">
+                                 <children>
+                                    <TextField fx:id="lastName" focusTraversable="false" maxWidth="-Infinity" prefHeight="40.0" prefWidth="470.0" promptText="LAST NAME" style="-fx-background-color: white; -fx-border-radius: 25; -fx-background-radius: 25;">
+                                       <font>
+                                          <Font name="Arial Bold" size="20.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="firstName" focusTraversable="false" layoutX="10.0" layoutY="10.0" maxWidth="-Infinity" prefHeight="40.0" prefWidth="470.0" promptText="FIRST NAME" style="-fx-background-color: white; -fx-border-radius: 25; -fx-background-radius: 25;">
+                                       <font>
+                                          <Font name="Arial Bold" size="20.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="middleName" focusTraversable="false" layoutX="10.0" layoutY="70.0" maxWidth="-Infinity" prefHeight="40.0" prefWidth="470.0" promptText="MIDDLE NAME" style="-fx-background-color: white; -fx-border-radius: 25; -fx-background-radius: 25;">
+                                       <font>
+                                          <Font name="Arial Bold" size="20.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="contactNumber" focusTraversable="false" layoutX="10.0" layoutY="130.0" maxWidth="-Infinity" prefHeight="40.0" prefWidth="470.0" promptText="CONTACT NUMBER" style="-fx-background-color: white; -fx-border-radius: 25; -fx-background-radius: 25;">
+                                       <font>
+                                          <Font name="Arial Bold" size="20.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets left="30.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox prefHeight="150.0" prefWidth="422.0">
+                                 <VBox.margin>
+                                    <Insets left="30.0" />
+                                 </VBox.margin>
+                                 <children>
+                                    <Label text="GENDER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Arial" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <HBox prefHeight="100.0" prefWidth="349.0">
+                                       <children>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="166.0" spacing="10.0">
+                                             <children>
+                                                <RadioButton contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" selected="true" text="Male">
+                                                   <graphic>
+                                                      <ImageView fitHeight="100.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../../assets/MALE%20ICON.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic>
+                                                   <toggleGroup>
+                                                      <ToggleGroup fx:id="gender" />
+                                                   </toggleGroup>
+                                                </RadioButton>
+                                                <Label text="MALE" textFill="WHITE">
+                                                   <font>
+                                                      <Font name="Arial" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="244.0" spacing="10.0">
+                                             <children>
+                                                <RadioButton contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="Female" toggleGroup="$gender">
+                                                   <graphic>
+                                                      <ImageView fitHeight="90.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@../../assets/FEMALE%20ICON.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                   </graphic>
+                                                   <HBox.margin>
+                                                      <Insets top="5.0" />
+                                                   </HBox.margin>
+                                                </RadioButton>
+                                                <Label text="FEMALE" textFill="WHITE">
+                                                   <font>
+                                                      <Font name="Arial" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox fillWidth="false" layoutX="40.0" layoutY="274.0" maxWidth="-Infinity" prefHeight="99.0" prefWidth="420.0" spacing="20.0">
+                                 <children>
+                                    <TextField fx:id="studentNumber" focusTraversable="false" maxWidth="-Infinity" prefHeight="40.0" prefWidth="470.0" promptText="STUDENT NUMBER" style="-fx-background-color: white; -fx-border-radius: 25; -fx-background-radius: 25;">
+                                       <font>
+                                          <Font name="Arial Bold" size="20.0" />
+                                       </font>
+                                    </TextField>
+                                    <TextField fx:id="section" focusTraversable="false" layoutX="10.0" layoutY="10.0" maxWidth="-Infinity" prefHeight="40.0" prefWidth="470.0" promptText="SECTION" style="-fx-background-color: white; -fx-border-radius: 25; -fx-background-radius: 25;">
+                                       <font>
+                                          <Font name="Arial Bold" size="20.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets left="30.0" />
+                                 </VBox.margin>
+                              </VBox>
+                           </children>
+                           <StackPane.margin>
+                              <Insets bottom="20.0" top="20.0" />
+                           </StackPane.margin>
+                        </VBox>
+                     </children>
+                  </StackPane>
+                  <StackPane HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="30.0" right="30.0" top="30.0" />
+                     </HBox.margin>
+                     <children>
+                        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: white; -fx-opacity: 0.3;" />
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="60.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="TYPE OF" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Arial" size="32.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" text="PAYMENT" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Arial" size="35.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+                                 <children>
+                                    <RadioButton contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" selected="true" text="Full">
+                                       <graphic>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../assets/FULL%20PAYMENT%20DEATH%20STAR.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <toggleGroup>
+                                          <ToggleGroup fx:id="payment_method" />
+                                       </toggleGroup>
+                                    </RadioButton>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="FULL PAYMENT" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="88.0" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+                                 <children>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="HALF PAYMENT" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <RadioButton contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="Half" toggleGroup="$payment_method">
+                                       <graphic>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../assets/HALF%20PAYMENT%20DEATH%20STAR.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </RadioButton>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_RIGHT">
+                                 <VBox.margin>
+                                    <Insets right="30.0" />
+                                 </VBox.margin>
+                                 <children>
+                                    <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#submitInfo" prefHeight="56.0" prefWidth="300.0" ripplerFill="TRANSPARENT" text="PROCEED" textFill="WHITE">
+                                       <graphic>
+                                          <ImageView fitHeight="58.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../assets/Be%20one%20with%20the%20force%20-%20button.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                       <font>
+                                          <Font name="Arial" size="25.0" />
+                                       </font>
+                                    </JFXButton>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <StackPane.margin>
+                              <Insets bottom="20.0" top="20.0" />
+                           </StackPane.margin>
+                        </VBox>
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <ImageView fitHeight="250.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/Assembly%20Logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+   </children>
+</VBox>

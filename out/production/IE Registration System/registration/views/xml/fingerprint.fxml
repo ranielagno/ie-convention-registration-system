@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="body" alignment="CENTER" prefHeight="740.0" prefWidth="1200.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane VBox.vgrow="ALWAYS">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-opacity: 0.3;">
+               <StackPane.margin>
+                  <Insets bottom="40.0" left="300.0" right="300.0" top="40.0" />
+               </StackPane.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="40.0" StackPane.alignment="TOP_CENTER">
+               <StackPane.margin>
+                  <Insets bottom="60.0" left="350.0" right="350.0" top="60.0" />
+               </StackPane.margin>
+               <children>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label text="BIOMETRIC" textFill="WHITE">
+                           <font>
+                              <Font name="Arial" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label text="SCANNING" textFill="WHITE">
+                           <font>
+                              <Font name="Arial" size="35.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" spacing="20.0" style="-fx-background-color: white;">
+                     <children>
+                        <ImageView fx:id="picture" fitHeight="350.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="far">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label text="TAP YOUR LEFT INDEX FINGER TO" textFill="WHITE">
+                           <font>
+                              <Font name="Arial" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="TO VERIFY YOUR IDENTITY." textFill="WHITE">
+                           <font>
+                              <Font name="Arial" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <JFXButton fx:id="submit" contentDisplay="CENTER" onAction="#submitFingerprint" ripplerFill="TRANSPARENT" text="SUBMIT" textFill="WHITE">
+                     <graphic>
+                        <ImageView disable="true" fitHeight="250.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../assets/Be%20one%20with%20the%20force%20-%20button.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="35.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</VBox>

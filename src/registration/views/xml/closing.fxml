@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="body" alignment="CENTER" prefHeight="740.0" prefWidth="1200.0" spacing="50.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="registration_complete" fitHeight="500.0" fitWidth="1550.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/REGISTRATION%20COMPLETE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="457.0" fitWidth="1300.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/MAY%20THE%20FORCE%20BE%20WITH%20YOU%20PIC.png" />
+         </image>
+      </ImageView>
+   </children>
+</VBox>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="body" alignment="CENTER" prefHeight="740.0" prefWidth="1200.0" spacing="20.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/One%20star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="834.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/One%20star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="744.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/One%20star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/Assembly%20Logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/PUP%20Logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="466.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/One%20star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="744.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/One%20star.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="774.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/One%20star.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <ImageView fitHeight="181.0" fitWidth="1093.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/WARRIORS%20OF%20CHANGE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/YODA%20ICON.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="register" alignment="CENTER" contentDisplay="CENTER" onAction="#registerNow" prefHeight="102.0" prefWidth="512.0" ripplerFill="TRANSPARENT" text="BE  ONE  WITH  THE  FORCE" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/Be%20one%20with%20the%20force%20-%20button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font></JFXButton>
+   </children>
+</VBox>
