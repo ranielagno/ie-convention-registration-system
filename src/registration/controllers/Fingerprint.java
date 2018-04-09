@@ -19,6 +19,7 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
+import registration.models.Model;
 
 import javax.swing.*;
 import java.awt.image.BufferedImage;
@@ -38,6 +39,8 @@ public class Fingerprint implements Initializable{
     @FXML
     private Label far;
 
+    private final String event_id;
+
     //For fingerprint scanner
     private DPFPCapture capturer = DPFPGlobal.getCaptureFactory().createCapture();
     private DPFPEnrollment enroller = DPFPGlobal.getEnrollmentFactory().createEnrollment();
@@ -46,19 +49,38 @@ public class Fingerprint implements Initializable{
     private final PropertyChangeSupport pcs = new PropertyChangeSupport(this);
     DPFPFeatureSet features;
 
+
+    public Fingerprint(String event_id) {
+        this.event_id = event_id;
+    }
+
     @FXML
     void submitFingerprint(ActionEvent event) throws IOException {
 
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("../views/xml/closing.fxml"));
-        loader.setController(new Closing());
+        try {
 
-        Parent root = loader.load();
-        Stage stage = (Stage) submit.getScene().getWindow();
-        Scene scene = new Scene(root, 1200, 700);
-        stage.setScene(scene);
-        stage.show();
+            Model model = Model.getInstance();
+
+            boolean isFingerprintSubmitted = model.addFingerprintData(getTemplate().serialize(), event_id);
+
+            if (isFingerprintSubmitted) {
+                FXMLLoader loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("/registration/views/xml/closing.fxml"));
+                loader.setController(new Closing());
+
+                Parent root = loader.load();
+                Stage stage = (Stage) submit.getScene().getWindow();
+                Scene scene = new Scene(root, 1200, 700);
+                stage.setScene(scene);
+                stage.show();
+            }
+
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(null, ex, "Fingerprint saving", JOptionPane.ERROR_MESSAGE);
+        }
+
     }
+
 
     public void start() {
         picture.setVisible(true);
@@ -205,6 +227,10 @@ public class Fingerprint implements Initializable{
         DPFPTemplate old = this.template;
         this.template = template;
         this.pcs.firePropertyChange(TEMPLATE_PROPERTY, old, template);
+    }
+
+    public DPFPTemplate getTemplate() {
+        return template;
     }
 
     @Override

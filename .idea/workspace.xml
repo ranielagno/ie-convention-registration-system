@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="registration" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/Main.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Closing.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Closing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$1$1.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$1.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$2$1.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$2$2.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$2$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$2.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$3$1.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$3$2.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$3.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$4$1.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$4.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$5.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Fingerprint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Home.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Home.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Registration.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/controllers/Registration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/models/Model.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/models/Model.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/network/ConnectionManager.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/network/ConnectionManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/network/NetworkConfig.class" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/network/NetworkConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/views/css/style.css" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/views/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IE Registration System/registration/views/xml/registration.fxml" afterPath="$PROJECT_DIR$/out/production/IE Registration System/registration/views/xml/registration.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/Main.java" afterPath="$PROJECT_DIR$/src/registration/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/controllers/Closing.java" afterPath="$PROJECT_DIR$/src/registration/controllers/Closing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/controllers/Fingerprint.java" afterPath="$PROJECT_DIR$/src/registration/controllers/Fingerprint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/controllers/Home.java" afterPath="$PROJECT_DIR$/src/registration/controllers/Home.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/controllers/Registration.java" afterPath="$PROJECT_DIR$/src/registration/controllers/Registration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/models/Model.java" afterPath="$PROJECT_DIR$/src/registration/models/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/network/ConnectionManager.java" afterPath="$PROJECT_DIR$/src/registration/network/ConnectionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/network/NetworkConfig.java" afterPath="$PROJECT_DIR$/src/registration/network/NetworkConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/views/css/style.css" afterPath="$PROJECT_DIR$/src/registration/views/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/views/xml/fingerprint.fxml" afterPath="$PROJECT_DIR$/src/registration/views/xml/fingerprint.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/views/xml/home.fxml" afterPath="$PROJECT_DIR$/src/registration/views/xml/home.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/registration/views/xml/registration.fxml" afterPath="$PROJECT_DIR$/src/registration/views/xml/registration.fxml" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,35 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/registration/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/registration/controllers/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/registration/controllers/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            <state relative-caret-position="544">
+              <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/registration/network/NetworkConfig.java">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/registration/views/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="17">
+              <caret line="1" column="66" lean-forward="false" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -107,8 +123,8 @@
       <file leaf-file-name="ConnectionManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/registration/network/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,30 +132,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/registration/models/Model.java">
+      <file leaf-file-name="NetworkConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/registration/network/NetworkConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="42" column="48" lean-forward="false" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fingerprint.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fingerprint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/registration/controllers/Fingerprint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="153" column="33" lean-forward="false" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
+            <state relative-caret-position="663">
+              <caret line="67" column="83" lean-forward="false" selection-start-line="67" selection-start-column="83" selection-end-line="67" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Closing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/registration/controllers/Closing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,6 +173,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>template</find>
+      <find>event</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -171,24 +197,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/registration/views/home.fxml" />
-        <option value="$PROJECT_DIR$/src/registration/views/css/style.css" />
-        <option value="$PROJECT_DIR$/src/registration/controllers/Closing.java" />
         <option value="$PROJECT_DIR$/src/registration/config/NetworkConfig.java" />
-        <option value="$PROJECT_DIR$/src/registration/controllers/Home.java" />
-        <option value="$PROJECT_DIR$/src/registration/Main.java" />
-        <option value="$PROJECT_DIR$/src/registration/network/NetworkConfig.java" />
         <option value="$PROJECT_DIR$/src/registration/network/ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/registration/models/Model.java" />
-        <option value="$PROJECT_DIR$/src/registration/controllers/Registration.java" />
+        <option value="$PROJECT_DIR$/src/registration/Main.java" />
+        <option value="$PROJECT_DIR$/src/registration/controllers/Home.java" />
         <option value="$PROJECT_DIR$/src/registration/controllers/Fingerprint.java" />
+        <option value="$PROJECT_DIR$/src/registration/controllers/Closing.java" />
+        <option value="$PROJECT_DIR$/src/registration/controllers/Registration.java" />
+        <option value="$PROJECT_DIR$/src/registration/models/Model.java" />
+        <option value="$PROJECT_DIR$/src/registration/views/css/style.css" />
+        <option value="$PROJECT_DIR$/src/registration/network/NetworkConfig.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -209,9 +236,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,7 +255,20 @@
               <item name="IE Registration System" type="b2602c69:ProjectViewProjectNode" />
               <item name="IE Registration System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IE Registration System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE Registration System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IE Registration System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE Registration System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IE Registration System" type="b2602c69:ProjectViewProjectNode" />
@@ -264,13 +304,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="registration" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IE Registration System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IE Registration System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,9 +332,9 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="D:/Programming/verification" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18939394" />
   </component>
   <component name="RecentsManager">
@@ -298,6 +346,7 @@
       <recent name="registration.network" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Raniel Agno\IdeaProjects\IE Registration System\src\registration\assets" />
       <recent name="C:\Users\Raniel Agno\IdeaProjects\IE Registration System\assets" />
       <recent name="C:\Users\Raniel Agno\IdeaProjects\IE Registration System\src\registration\views" />
     </key>
@@ -463,7 +512,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25183016" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -478,7 +527,7 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -535,13 +584,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/registration/controllers/Fingerprint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="175" column="54" lean-forward="true" selection-start-line="175" selection-start-column="54" selection-end-line="175" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/registration/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,10 +642,6 @@
           <caret line="42" column="48" lean-forward="false" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -611,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,10 +696,6 @@
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,9 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,9 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,9 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,25 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/views/xml/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/views/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -850,17 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/controllers/Closing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,14 +852,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="633" column="23" lean-forward="false" selection-start-line="633" selection-start-column="23" selection-end-line="633" selection-end-column="23" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/views/xml/home.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/registration/controllers/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="20" column="92" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/controllers/Closing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/assets/reg_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/controllers/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/assets/STARS_BACKGROUND.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/assets/MAY THE FORCE BE WITH YOU PIC.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/assets/WARRIORS OF CHANGE.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/assets/YODA ICON.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/views/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="66" lean-forward="false" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/network/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registration/controllers/Fingerprint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="67" column="83" lean-forward="false" selection-start-line="67" selection-start-column="83" selection-end-line="67" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -884,32 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/registration/models/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="42" column="48" lean-forward="false" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/network/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="357">
+          <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -919,28 +970,8 @@
     <entry file="file://$PROJECT_DIR$/src/registration/network/NetworkConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/controllers/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/registration/controllers/Fingerprint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="153" column="33" lean-forward="false" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,11 +981,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>JavaFXApp</last-edited>
+          <last-edited>registration</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18939394" />
                 <option value="0.5" />
               </list>
             </option>
@@ -967,7 +998,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18939394" />
               </list>
             </option>
           </splitter-proportions>
@@ -1003,6 +1034,7 @@
             <option name="proportions">
               <list>
                 <option value="0.18939394" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

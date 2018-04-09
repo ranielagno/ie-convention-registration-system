@@ -27,7 +27,7 @@ public class Closing implements Initializable {
                 Duration.millis(3000),
                 e-> {
                     FXMLLoader loader = new FXMLLoader();
-                    loader.setLocation(getClass().getResource("../views/xml/home.fxml"));
+                    loader.setLocation(getClass().getResource("/registration/views/xml/home.fxml"));
                     loader.setController(new Home());
 
 

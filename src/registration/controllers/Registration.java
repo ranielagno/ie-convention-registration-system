@@ -29,8 +29,11 @@ public class Registration {
     private String strLastName, strFirstName, strMiddleName, strContactNumber, strGender, strStudentNumber,
             strSection, strPaymentMethod;
 
+    private final static Pattern pattern = Pattern.compile("[A-Za-z0-9'\\.\\-\\s\\,]");
     private final static Pattern strPattern = Pattern.compile("[a-zA-Z]+");
     private final static Pattern contactPattern = Pattern.compile("^[0-9,-]+$");
+
+    private String event_id;
 
     @FXML
     void submitInfo(ActionEvent event) throws IOException {
@@ -50,8 +53,8 @@ public class Registration {
         strPaymentMethod = radio_payment.getText();
 
         try {
-            //validate();
-            //putDataInDatabase();
+            validate();
+            putDataInDatabase();
             goToNextScene();
         } catch (Exception e) {
             String prompt = e.toString().substring(21);
@@ -76,9 +79,19 @@ public class Registration {
         match = contactPattern.matcher(strContactNumber);
         matcher(strContactNumber, "Contact Number", match);
 
+        if(strContactNumber.length()>11 || strContactNumber.length()<8)
+            throw new Exception("Invalid Contact Number");
+
+        match = pattern.matcher(strStudentNumber);
+        matcher(strStudentNumber, "Student Number", match);
+
         nullPointer(strStudentNumber, "Student Number");
 
+        match = pattern.matcher(strSection);
+        matcher(strSection, "Section", match);
+
         nullPointer(strSection, "Section");
+
 
     }
 
@@ -99,8 +112,8 @@ public class Registration {
 
     private void goToNextScene() throws IOException {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("../views/xml/fingerprint.fxml"));
-        loader.setController(new Fingerprint());
+        loader.setLocation(getClass().getResource("/registration/views/xml/fingerprint.fxml"));
+        loader.setController(new Fingerprint(event_id));
 
         Parent root = loader.load();
         Stage stage = (Stage) lastName.getScene().getWindow();
@@ -113,8 +126,9 @@ public class Registration {
     private void putDataInDatabase() {
         Model model = Model.getInstance();
 
-        model.insertParticipant(strLastName, strFirstName, strMiddleName, strContactNumber, strGender,
-                strStudentNumber, strSection, strPaymentMethod);
+        event_id = model.insertParticipant(strLastName.toUpperCase(), strFirstName.toUpperCase(),
+                strMiddleName.toUpperCase(), strContactNumber, strGender,
+                strStudentNumber.toUpperCase(), strSection.toUpperCase(), strPaymentMethod);
 
     }
 

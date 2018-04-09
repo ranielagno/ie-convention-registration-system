@@ -1,8 +1,8 @@
 package registration.models;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
+import javax.swing.*;
+import java.sql.*;
+import java.text.DecimalFormat;
 
 public class Model {
 
@@ -20,7 +20,7 @@ public class Model {
         Model.connection = connection;
     }
 
-    public void insertParticipant(String lastName, String firstName, String middleName, String contactNumber,
+    public String insertParticipant(String lastName, String firstName, String middleName, String contactNumber,
                                   String gender, String studentNumber, String section, String paymentMethod) {
 
         /*
@@ -42,11 +42,54 @@ public class Model {
         try {
             Statement statement = connection.createStatement();
             statement.executeUpdate(sql);
+
+            int id = 0;
+
+            ResultSet res = statement.executeQuery("SELECT `id` FROM `participants` ORDER BY `id` DESC LIMIT 1");
+            while (res.next()) {
+                id = res.getInt("id");
+            }
+
+            DecimalFormat df = new DecimalFormat("0000");
+            String format = df.format(id);
+            String event_id = "PUPIE-" + format;
+
+            statement.executeUpdate("UPDATE `participants` SET event_id = '" + event_id + "' WHERE `id` = " + id);
+            res.close();
+
+            return event_id;
+
         } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Can't connect to database",
+                    "Error to connect...", JOptionPane.ERROR_MESSAGE);
             e.printStackTrace();
         }
 
-        // System.out.println(sql);
+        return "";
+    }
+
+    public boolean addFingerprintData(byte[] data, String event_id) {
+
+        String updateSQL = "UPDATE `participants` SET `fingerprint` = ? WHERE `event_id` = ?";
+
+        PreparedStatement pstmt = null;
+        try {
+            pstmt = connection.prepareStatement(updateSQL);
+
+            pstmt.setBytes(1, data);
+            pstmt.setString(2, event_id);
+            pstmt.executeUpdate();
+
+            return true;
+
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(null, "Can't connect to database",
+                    "Error to connect...", JOptionPane.ERROR_MESSAGE);
+            e.printStackTrace();
+        }
+
+        return false;
+
     }
 
 }

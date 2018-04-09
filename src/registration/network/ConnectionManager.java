@@ -24,6 +24,7 @@ public class ConnectionManager {
             Model.setConnection(con);
 
         } catch (Exception error) {
+            error.printStackTrace();
             JOptionPane.showMessageDialog(null, "Can't connect to database",
                     "Error to connect...", JOptionPane.ERROR_MESSAGE);
             access = false;

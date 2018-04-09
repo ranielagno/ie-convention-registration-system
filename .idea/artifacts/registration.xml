@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="registration">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="IE Registration System.jar">
+      <element id="module-output" name="IE Registration System" />
+      <element id="extracted-dir" path="D:/Programming/Libraries/dpotjni.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Programming/Libraries/dpotapi.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Programming/Libraries/dpfpverification.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Programming/Libraries/mysql-connector-java-5.1.40-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Programming/Libraries/jfoenix.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Programming/Libraries/dpfpenrollment.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

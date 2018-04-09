@@ -28,7 +28,7 @@ public class Main extends Application {
         if (isDatabaseConnected) {
 
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("views/xml/home.fxml"));
+            loader.setLocation(getClass().getResource("/registration/views/xml/home.fxml"));
             loader.setController(new Home());
 
             Parent root = loader.load();
@@ -46,6 +46,8 @@ public class Main extends Application {
             primaryStage.setScene(new Scene(root, 1200, 700));
             primaryStage.show();
 
+        } else {
+            System.exit(0);
         }
 
     }

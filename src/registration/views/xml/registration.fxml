@@ -15,8 +15,13 @@
 
 <VBox id="body" prefHeight="740.0" prefWidth="1200.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <StackPane prefHeight="150.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+      <StackPane prefHeight="150.0" prefWidth="200.0" stylesheets="@../css/style.css" VBox.vgrow="ALWAYS">
          <children>
+            <ImageView fitHeight="700.0" fitWidth="1195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/reg_bg.png" />
+               </image>
+            </ImageView>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="60.0">
                <children>
                   <StackPane HBox.hgrow="ALWAYS">
@@ -24,7 +29,6 @@
                         <Insets bottom="30.0" left="30.0" top="30.0" />
                      </HBox.margin>
                      <children>
-                        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" opacity="0.3" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: white;" />
                         <VBox fillWidth="false" prefHeight="200.0" prefWidth="100.0" spacing="30.0">
                            <children>
                               <VBox prefHeight="78.0" prefWidth="650.0">
@@ -145,7 +149,7 @@
                               </VBox>
                            </children>
                            <StackPane.margin>
-                              <Insets bottom="20.0" top="20.0" />
+                              <Insets bottom="20.0" left="60.0" top="20.0" />
                            </StackPane.margin>
                         </VBox>
                      </children>
@@ -155,7 +159,6 @@
                         <Insets bottom="30.0" right="30.0" top="30.0" />
                      </HBox.margin>
                      <children>
-                        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: white; -fx-opacity: 0.3;" />
                         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="60.0">
                            <children>
                               <VBox>
@@ -232,18 +235,13 @@
                               </HBox>
                            </children>
                            <StackPane.margin>
-                              <Insets bottom="20.0" top="20.0" />
+                              <Insets bottom="20.0" right="60.0" top="20.0" />
                            </StackPane.margin>
                         </VBox>
                      </children>
                   </StackPane>
                </children>
             </HBox>
-            <ImageView fitHeight="250.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../assets/Assembly%20Logo.png" />
-               </image>
-            </ImageView>
          </children>
       </StackPane>
    </children>
